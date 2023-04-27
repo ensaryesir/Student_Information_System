@@ -1,12 +1,7 @@
 {
   "ExpandedNodes": [
     "",
-    "\\TestProject",
-    "\\TestProject\\TestProject",
-    "\\TestProject\\TestProject\\DataDB",
-    "\\TestProject\\TestProject\\Views",
-    "\\TestProject\\TestProject\\Views\\Home"
+    "\\TestProject"
   ],
-  "SelectedNode": "\\TestProject\\TestProject\\DataDB\\TestDBContext.cs",
   "PreviewInSolutionExplorer": false
 }
