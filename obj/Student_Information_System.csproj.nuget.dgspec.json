@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ensar\\Documents\\GitHub\\Student_Information_System\\Student_Information_System.csproj": {}
+    "C:\\Users\\Yigit\\Documents\\GitHub\\Student_Information_System\\Student_Information_System.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ensar\\Documents\\GitHub\\Student_Information_System\\Student_Information_System.csproj": {
+    "C:\\Users\\Yigit\\Documents\\GitHub\\Student_Information_System\\Student_Information_System.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ensar\\Documents\\GitHub\\Student_Information_System\\Student_Information_System.csproj",
+        "projectUniqueName": "C:\\Users\\Yigit\\Documents\\GitHub\\Student_Information_System\\Student_Information_System.csproj",
         "projectName": "Student_Information_System",
-        "projectPath": "C:\\Users\\ensar\\Documents\\GitHub\\Student_Information_System\\Student_Information_System.csproj",
-        "packagesPath": "C:\\Users\\ensar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ensar\\Documents\\GitHub\\Student_Information_System\\obj\\",
+        "projectPath": "C:\\Users\\Yigit\\Documents\\GitHub\\Student_Information_System\\Student_Information_System.csproj",
+        "packagesPath": "C:\\Users\\Yigit\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Yigit\\Documents\\GitHub\\Student_Information_System\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ensar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Yigit\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -49,8 +49,14 @@
               "version": "[7.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.5, )"
+            },
+            "bootstrap": {
+              "target": "Package",
+              "version": "[5.2.3, )"
             }
           },
           "imports": [
@@ -72,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
