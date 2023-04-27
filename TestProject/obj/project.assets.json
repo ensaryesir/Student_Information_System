@@ -6045,11 +6045,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\muham\\Documents\\GitHub\\Student_Information_System\\TestProject\\TestProject\\TestProject.csproj",
+      "projectUniqueName": "C:\\Users\\muham\\Documents\\GitHub\\Student_Information_System\\TestProject\\TestProject.csproj",
       "projectName": "TestProject",
-      "projectPath": "C:\\Users\\muham\\Documents\\GitHub\\Student_Information_System\\TestProject\\TestProject\\TestProject.csproj",
+      "projectPath": "C:\\Users\\muham\\Documents\\GitHub\\Student_Information_System\\TestProject\\TestProject.csproj",
       "packagesPath": "C:\\Users\\muham\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\muham\\Documents\\GitHub\\Student_Information_System\\TestProject\\TestProject\\obj\\",
+      "outputPath": "C:\\Users\\muham\\Documents\\GitHub\\Student_Information_System\\TestProject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\muham\\AppData\\Roaming\\NuGet\\NuGet.Config",
