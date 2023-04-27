@@ -2,7 +2,7 @@
 @{
     ViewData["Title"] = "Home Page";
 }
-<table  @*border="1"*@ class="table w-100">
+<table @*border="1"*@ class="table table-bordered table-responsive w-100">
     <thead>
         <tr>
             <th scope="col">ID</th>
@@ -22,7 +22,7 @@
         @foreach (var item in Model.EmplDetailList)
         {
             <tr>
-                <td>@item.Id</td>
+                <th>@item.Id</th>
                 <td>@item.FirstName</td>
                 <td>@item.LastName</td>
                 <td>@item.Department</td>
