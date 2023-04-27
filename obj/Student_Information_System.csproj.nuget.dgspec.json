@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ensar\\source\\repos\\Student_Information_System\\Student_Information_System.csproj": {}
+    "C:\\Users\\ensar\\Documents\\GitHub\\Student_Information_System\\Student_Information_System.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ensar\\source\\repos\\Student_Information_System\\Student_Information_System.csproj": {
+    "C:\\Users\\ensar\\Documents\\GitHub\\Student_Information_System\\Student_Information_System.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ensar\\source\\repos\\Student_Information_System\\Student_Information_System.csproj",
+        "projectUniqueName": "C:\\Users\\ensar\\Documents\\GitHub\\Student_Information_System\\Student_Information_System.csproj",
         "projectName": "Student_Information_System",
-        "projectPath": "C:\\Users\\ensar\\source\\repos\\Student_Information_System\\Student_Information_System.csproj",
+        "projectPath": "C:\\Users\\ensar\\Documents\\GitHub\\Student_Information_System\\Student_Information_System.csproj",
         "packagesPath": "C:\\Users\\ensar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ensar\\source\\repos\\Student_Information_System\\obj\\",
+        "outputPath": "C:\\Users\\ensar\\Documents\\GitHub\\Student_Information_System\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ensar\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,20 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
