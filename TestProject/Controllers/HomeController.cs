@@ -34,7 +34,6 @@ namespace TestProject.Controllers
                     //PhoneNumber = item.PhoneNumber,
                     //GPA = item.GPA,
                     //Graduated = item.Graduated
-                    //Salery = item.Salery,
                 });
             }
             return View(employeeModel);
