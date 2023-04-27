@@ -3,9 +3,10 @@
     "",
     "\\TestProject",
     "\\TestProject\\TestProject",
+    "\\TestProject\\TestProject\\DataDB",
     "\\TestProject\\TestProject\\Views",
     "\\TestProject\\TestProject\\Views\\Home"
   ],
-  "SelectedNode": "\\TestProject\\TestProject\\Views\\Home\\Index.cshtml",
+  "SelectedNode": "\\TestProject\\TestProject\\DataDB\\TestDBContext.cs",
   "PreviewInSolutionExplorer": false
 }
