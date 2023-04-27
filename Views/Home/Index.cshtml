@@ -1,8 +1,39 @@
-﻿@{
+﻿@model TestProject.Models.EmployeeModel
+@{
     ViewData["Title"] = "Home Page";
 }
+<table @*border="1"*@ class="w-100">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>NAME</th>
+            <th>LASTNAME</th>
+            <th>DEPARTMENT</th>
+            <th>EMAİL</th>
+            <th>ADDRESS</th>
+            @*<th>PHONE ????? </th>*@
+@*            <th>BİRTH DATE</th>
+            
+            <th>GENDER</th>*@
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.EmplDetailList)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.FirstName</td>
+                <td>@item.LastName</td>
+                <td>@item.Department</td>
+                <td>@item.Email</td>
+                <td>@item.Adress</td>
+
+                @*<td>@item.PhoneNumber ?????</td>*@
+@*                <td>@item.BirthDate</td>
+                <td>@item.Gender</td>*@
+
+            </tr>
+        }
+    </tbody>
+</table>
