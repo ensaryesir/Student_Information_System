@@ -17,10 +17,8 @@
         //public DateTime BirthDate { get;  set; }
         //public int StudentNo { get; set; }
         //public string Gender { get; set; }
-        //public string Adress { get; set; }
         //public float GPA { get; set; }
         //public DateTime RegistrationDate { get; set; }
         //public DateTime Graduated { get; set; }
-        //public int? Salery { get; set; }
     }
 }
