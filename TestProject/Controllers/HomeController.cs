@@ -30,7 +30,7 @@ namespace TestProject.Controllers
                     LastName = item.LastName,
                     Department = item.Department,
                     Email = item.Email,
-                    //StudentNo = item.StudentNo
+                    Adress = item.Adress
                     //PhoneNumber = item.PhoneNumber,
                     //GPA = item.GPA,
                     //Graduated = item.Graduated
