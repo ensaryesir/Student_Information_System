@@ -31,8 +31,8 @@ namespace TestProject.Controllers
                     Department = item.Department,
                     Email = item.Email,
                     Adress = item.Adress,
+                    PhoneNumber = item.PhoneNumber,
                     //Gender = item.Gender // HATALI KULLANIM ?
-                    //PhoneNumber = item.PhoneNumber,
                     //GPA = item.GPA,
                     //Graduated = item.Graduated
                 });

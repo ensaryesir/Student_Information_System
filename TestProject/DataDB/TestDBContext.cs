@@ -35,6 +35,7 @@ namespace TestProject.DataDB
             modelBuilder.Entity<Employee>(entity =>
             {
                 entity.ToTable("StudentInformations");
+
                 entity.Property(e => e.FirstName)
                     .HasMaxLength(50)
                     .IsUnicode(false);
@@ -51,9 +52,9 @@ namespace TestProject.DataDB
                     .HasMaxLength(50)
                     .IsUnicode(false);
 
-                //entity.Property(e => e.PhoneNumber)
-                //    .HasMaxLength(50)
-                //    .IsUnicode(false);
+                entity.Property(e => e.PhoneNumber)
+                    .HasMaxLength(50)
+                    .IsUnicode(false);
 
                 //entity.Property(e => e.BirthDate)
                 //    .HasMaxLength(50)

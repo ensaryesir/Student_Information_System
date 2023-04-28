@@ -13,7 +13,7 @@
         public string Email { get; set; }
         public string Adress { get; set; }
         public int StudentNo { get; internal set; }
-        public object Gender { get; internal set; }
+        public string PhoneNumber { get; internal set; }
 
         //public int PhoneNumber { get; set; }
         //public DateTime BirthDate { get;  set; }
