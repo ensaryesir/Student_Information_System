@@ -12,6 +12,7 @@
         public string Department { get; set; }
         public string Email { get; set; }
         public string Adress { get; set; }
+        public int StudentNo { get; internal set; }
 
         //public int PhoneNumber { get; set; }
         //public DateTime BirthDate { get;  set; }
