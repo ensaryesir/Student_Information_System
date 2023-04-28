@@ -13,5 +13,6 @@ namespace TestProject.DataDB
         public string Department { get; set; }
         public string Email { get; set; }
         public string Adress { get; set; }
+        //public object Gender { get; internal set; } // HATA ?
     }
 }

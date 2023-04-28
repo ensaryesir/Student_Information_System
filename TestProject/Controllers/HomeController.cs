@@ -30,7 +30,8 @@ namespace TestProject.Controllers
                     LastName = item.LastName,
                     Department = item.Department,
                     Email = item.Email,
-                    Adress = item.Adress
+                    Adress = item.Adress,
+                    //Gender = item.Gender // HATALI KULLANIM ?
                     //PhoneNumber = item.PhoneNumber,
                     //GPA = item.GPA,
                     //Graduated = item.Graduated
