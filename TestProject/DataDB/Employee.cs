@@ -12,5 +12,6 @@ namespace TestProject.DataDB
         public string LastName { get; set; }
         public string Department { get; set; }
         public string Email { get; set; }
+        public string Adress { get; set; }
     }
 }
