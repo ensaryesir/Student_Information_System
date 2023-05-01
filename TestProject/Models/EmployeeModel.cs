@@ -12,12 +12,13 @@
         public string Department { get; set; }
         public string Email { get; set; }
         public string Adress { get; set; }
-        public int StudentNo { get; internal set; }
+        public string StudentNo { get; internal set; }
         public string PhoneNumber { get; internal set; }
+        public DateTime BirthDate { get; internal set; }
+        public DateTime RegistrationDate { get; internal set; }
+        public string Gender { get; internal set; }
+        public string IdentificationNumber { get; internal set; }
 
-        //public int PhoneNumber { get; set; }
-        //public DateTime BirthDate { get;  set; }
-        //public int StudentNo { get; set; }
         //public string Gender { get; set; }
         //public float GPA { get; set; }
         //public DateTime RegistrationDate { get; set; }
