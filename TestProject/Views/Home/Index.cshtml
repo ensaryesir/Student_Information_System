@@ -6,16 +6,17 @@
     <thead>
         <tr>
             <th scope="col">ID</th>
+            <th scope="col">NUMBER</th>
             <th scope="col">NAME</th>
             <th scope="col">LASTNAME</th>
+            <th scope="col">GENDER</th>
             <th scope="col">DEPARTMENT</th>
             <th scope="col">EMAİL</th>
             <th scope="col">ADDRESS</th>
             <th scope="col">PHONE</th>
-            @*          
-            <th>BİRTH DATE</th>
-            <th>GENDER</th>
-            *@
+            <th scope="col">BIRTH DATE</th>
+            <th scope="col">REGISTRATION DATE</th>
+            <th scope="col">I.N.</th>
 
         </tr>
     </thead>
@@ -24,16 +25,17 @@
         {
             <tr>
                 <th>@item.Id</th>
+                <th>@item.StudentNo</th>
                 <td>@item.FirstName</td>
                 <td>@item.LastName</td>
+                <td>@item.Gender</td>
                 <td>@item.Department</td>
                 <td>@item.Email</td>
                 <td>@item.Adress</td>
                 <td>@item.PhoneNumber</td>
-                @*                
                 <td>@item.BirthDate</td>
-                <td>@item.Gender</td>
-                *@
+                <td>@item.RegistrationDate</td>
+                <td>@item.IdentificationNumber</td>
             </tr>
         }
     </tbody>
