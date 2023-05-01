@@ -44,7 +44,6 @@ namespace TestProject.Controllers
                 BirthDate = item.BirthDate,
                 RegistrationDate = item.RegistrationDate,
                 IdentificationNumber = item.IdentificationNumber,
-                //Gender = item.Gender // HATALI KULLANIM ?
                 //GPA = item.GPA,
                 //Graduated = item.Graduated
             };

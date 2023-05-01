@@ -55,10 +55,6 @@ namespace TestProject.DataDB
                 entity.Property(e => e.PhoneNumber)
                     .HasMaxLength(50)
                     .IsUnicode(false);
-
-                //entity.Property(e => e.BirthDate)
-                //    .HasMaxLength(50)
-                //    .IsUnicode(false);
             });
 
             OnModelCreatingPartial(modelBuilder);
