@@ -23,21 +23,31 @@ namespace TestProject.Controllers
             var data = testDBContext.Employees.ToList();
             foreach (var item in data)
             {
-                employeeModel.EmplDetailList.Add(new EmplDetail
-                {
-                    Id = item.Id,
-                    FirstName = item.FirstName,
-                    LastName = item.LastName,
-                    Department = item.Department,
-                    Email = item.Email,
-                    Adress = item.Adress,
-                    PhoneNumber = item.PhoneNumber,
-                    //Gender = item.Gender // HATALI KULLANIM ?
-                    //GPA = item.GPA,
-                    //Graduated = item.Graduated
-                });
+                employeeModel.EmplDetailList.Add(NewMethod(item));
             }
             return View(employeeModel);
+        }
+
+        private static EmplDetail NewMethod(Employee item)
+        {
+            return new EmplDetail
+            {
+                Id = item.Id,
+                StudentNo = item.StudentNo,
+                FirstName = item.FirstName,
+                LastName = item.LastName,
+                Gender = item.Gender,
+                Department = item.Department,
+                Email = item.Email,
+                Adress = item.Adress,
+                PhoneNumber = item.PhoneNumber,
+                BirthDate = item.BirthDate,
+                RegistrationDate = item.RegistrationDate,
+                IdentificationNumber = item.IdentificationNumber,
+                //Gender = item.Gender // HATALI KULLANIM ?
+                //GPA = item.GPA,
+                //Graduated = item.Graduated
+            };
         }
 
         public IActionResult Privacy()
