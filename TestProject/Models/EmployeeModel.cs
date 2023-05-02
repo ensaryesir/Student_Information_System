@@ -19,9 +19,7 @@
         public string Gender { get; internal set; }
         public string IdentificationNumber { get; internal set; }
 
-        //public string Gender { get; set; }
         //public float GPA { get; set; }
-        //public DateTime RegistrationDate { get; set; }
         //public DateTime Graduated { get; set; }
     }
 }
