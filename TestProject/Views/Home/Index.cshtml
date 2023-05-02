@@ -2,6 +2,11 @@
 @{
     ViewData["Title"] = "Home Page";
 }
+
+<h2> List of Students</h2>
+
+<a class="btn btn-primary btn-sm mt-2 mb-3"> New Student </a>
+
 <table @*border="1"*@ class="table table-bordered table-responsive w-100">
     <thead>
         <tr>
@@ -11,12 +16,13 @@
             <th scope="col">LASTNAME</th>
             <th scope="col">GENDER</th>
             <th scope="col">DEPARTMENT</th>
-            <th scope="col">EMAİL</th>
-            <th scope="col">ADDRESS</th>
+@*            <th scope="col">EMAİL</th>
+*@            <th scope="col">ADDRESS</th>
             <th scope="col">PHONE</th>
             <th scope="col">BIRTH DATE</th>
             <th scope="col">REGISTRATION DATE</th>
             <th scope="col">I.N.</th>
+            <th scope="col">ACTION</th>
 
         </tr>
     </thead>
@@ -30,12 +36,16 @@
                 <td>@item.LastName</td>
                 <td>@item.Gender</td>
                 <td>@item.Department</td>
-                <td>@item.Email</td>
-                <td>@item.Adress</td>
+@*                <td>@item.Email</td>
+*@                <td>@item.Adress</td>
                 <td>@item.PhoneNumber</td>
                 <td>@item.BirthDate</td>
                 <td>@item.RegistrationDate</td>
                 <td>@item.IdentificationNumber</td>
+                <td class="d-grid">
+                    <a class="btn btn-primary btn-sm m-1"> Edit </a>
+                    <a class="btn btn-danger btn-sm m-1"> Delete </a>
+                </td>
             </tr>
         }
     </tbody>
