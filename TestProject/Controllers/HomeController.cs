@@ -28,6 +28,20 @@ namespace TestProject.Controllers
             return View(employeeModel);
         }
 
+        public IActionResult Students()
+        {
+            EmployeeModel employeeModel = new EmployeeModel();
+            employeeModel.EmplDetailList = new List<EmplDetail>();
+
+            TestDBContext testDBContext = new TestDBContext();
+            var data = testDBContext.Employees.ToList();
+            foreach (var item in data)
+            {
+                employeeModel.EmplDetailList.Add(NewMethod(item));
+            }
+            return View(employeeModel);
+        }
+
         private static EmplDetail NewMethod(Employee item)
         {
             return new EmplDetail
