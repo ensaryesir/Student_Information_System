@@ -3,9 +3,8 @@
     "",
     "\\TestProject",
     "\\TestProject\\Views",
-    "\\TestProject\\Views\\Home",
-    "\\TestProject\\Views\\Home\\Clients"
+    "\\TestProject\\Views\\Home"
   ],
-  "SelectedNode": "\\TestProject\\appsettings.json",
+  "SelectedNode": "\\TestProject.sln",
   "PreviewInSolutionExplorer": false
 }
