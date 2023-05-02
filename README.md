@@ -1,7 +1,7 @@
 # Student Information System
 
 Requirements
-.NET 6.0+
+.NET 5.0+
 
 Database linkini değiştirmeyi unutma
 ...TestProject/DataDB/TestDBContext.cs
