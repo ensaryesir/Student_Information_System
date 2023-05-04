@@ -6,4 +6,4 @@ Requirements
 Database linkini değiştirmeyi unutma
 ...TestProject/DataDB/TestDBContext.cs
 
-Açılması için TestProject.sln dosyaını aç ve çalıştır
+Açılması için TestProject.sln dosyasını aç ve çalıştır
