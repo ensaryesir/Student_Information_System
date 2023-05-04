@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\muham\\Documents\\GitHub\\Forked\\Student_Information_System\\Student-information-system\\TestProject\\TestProject.csproj": {}
+    "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\Student-information-system\\TestProject\\TestProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\muham\\Documents\\GitHub\\Forked\\Student_Information_System\\Student-information-system\\TestProject\\TestProject.csproj": {
+    "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\Student-information-system\\TestProject\\TestProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\muham\\Documents\\GitHub\\Forked\\Student_Information_System\\Student-information-system\\TestProject\\TestProject.csproj",
+        "projectUniqueName": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\Student-information-system\\TestProject\\TestProject.csproj",
         "projectName": "TestProject",
-        "projectPath": "C:\\Users\\muham\\Documents\\GitHub\\Forked\\Student_Information_System\\Student-information-system\\TestProject\\TestProject.csproj",
+        "projectPath": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\Student-information-system\\TestProject\\TestProject.csproj",
         "packagesPath": "C:\\Users\\muham\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\muham\\Documents\\GitHub\\Forked\\Student_Information_System\\Student-information-system\\TestProject\\obj\\",
+        "outputPath": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\Student-information-system\\TestProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\muham\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,15 +40,19 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.1.1, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.13, )"
+              "version": "[7.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.13, )"
+              "version": "[7.0.5, )"
             }
           },
           "imports": [

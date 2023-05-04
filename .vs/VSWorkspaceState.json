@@ -5,6 +5,6 @@
     "\\TestProject\\Views",
     "\\TestProject\\Views\\Home"
   ],
-  "SelectedNode": "\\TestProject.sln",
+  "SelectedNode": "\\TestProject\\Views\\Home\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }
