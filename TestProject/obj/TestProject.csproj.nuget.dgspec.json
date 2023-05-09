@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\Student-information-system\\TestProject\\TestProject.csproj": {}
+    "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\Student_Information_System\\TestProject\\TestProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\Student-information-system\\TestProject\\TestProject.csproj": {
+    "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\Student_Information_System\\TestProject\\TestProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\Student-information-system\\TestProject\\TestProject.csproj",
+        "projectUniqueName": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\Student_Information_System\\TestProject\\TestProject.csproj",
         "projectName": "TestProject",
-        "projectPath": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\Student-information-system\\TestProject\\TestProject.csproj",
+        "projectPath": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\Student_Information_System\\TestProject\\TestProject.csproj",
         "packagesPath": "C:\\Users\\muham\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\Student-information-system\\TestProject\\obj\\",
+        "outputPath": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\Student_Information_System\\TestProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\muham\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vlUzSrYRfNIMkh9p5BznYW/7duktT5CuRJ6zjvEMrZbnkORmiTqjmrTTOVjibBwx0Kj33xvM9PwY06KCpqSR7A==",
+  "dgSpecHash": "cAslCwqHA9ALbVcuB3zM4/V44dajGtW/OQAWTwzWPrAUpkY0c7CIwNPofG6y4dFXIKkiJMaMCNijVHxZJAPHPA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\Student-information-system\\TestProject\\TestProject.csproj",
+  "projectFilePath": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\Student_Information_System\\TestProject\\TestProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\muham\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\muham\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
