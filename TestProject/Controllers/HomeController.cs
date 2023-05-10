@@ -82,7 +82,7 @@ namespace TestProject.Controllers
                 Gender = item.Gender,
                 Department = item.Department,
                 Email = item.Email,
-                Adress = item.Adress,
+                Address = item.Address,
                 PhoneNumber = item.PhoneNumber,
                 BirthDate = item.BirthDate,
                 RegistrationDate = item.RegistrationDate,

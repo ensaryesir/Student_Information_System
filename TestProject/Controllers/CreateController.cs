@@ -41,7 +41,7 @@ namespace TestProject.Controllers
                     command.Parameters.AddWithValue("@Phone", student.PhoneNumber);
                     command.Parameters.AddWithValue("@TC", student.IdentificationNumber);
                     command.Parameters.AddWithValue("@Department", student.Department);
-                    command.Parameters.AddWithValue("@Adress", student.Adress);
+                    command.Parameters.AddWithValue("@Adress", student.Address);
                     command.Parameters.AddWithValue("@Gender", student.Gender);
                     command.Parameters.AddWithValue("@BirthDate", student.BirthDate);
                     command.Parameters.AddWithValue("@RegistrationDate", student.RegistrationDate);
