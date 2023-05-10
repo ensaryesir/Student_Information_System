@@ -8,8 +8,6 @@ namespace TestProject.Controllers
 
     public class CreateController : Controller
     {
-
-
         private readonly string _connectionString;
 
         public CreateController(IConfiguration configuration)
@@ -32,14 +30,21 @@ namespace TestProject.Controllers
             using (SqlConnection connection = new SqlConnection(_connectionString))
             {
                 connection.Open();
-                string query = "INSERT INTO StudentInformations (FirstName, LastName, StudentNo, Email, PhoneNumber) VALUES (@Name, @Surname, @StudentNo, @Email, @PhoneNumber)";
+                string query = "INSERT INTO StudentInformations (FirstName,LastName,StudentNo,Email,PhoneNumber,IdentificationNumber,Department,Adress,Gender,BirthDate,RegistrationDate) " +
+                                                        "VALUES (@Name,@Surname,@StudentNo,@Email,@Phone,@TC,@Department,@Adress,@Gender,@BirthDate,@RegistrationDate)";
                 using (SqlCommand command = new SqlCommand(query, connection))
                 {
                     command.Parameters.AddWithValue("@Name", student.FirstName);
                     command.Parameters.AddWithValue("@Surname", student.LastName);
                     command.Parameters.AddWithValue("@StudentNo", student.StudentNo);
                     command.Parameters.AddWithValue("@Email", student.Email);
-                    command.Parameters.AddWithValue("@PhoneNumber", student.PhoneNumber);
+                    command.Parameters.AddWithValue("@Phone", student.PhoneNumber);
+                    command.Parameters.AddWithValue("@TC", student.IdentificationNumber);
+                    command.Parameters.AddWithValue("@Department", student.Department);
+                    command.Parameters.AddWithValue("@Adress", student.Adress);
+                    command.Parameters.AddWithValue("@Gender", student.Gender);
+                    command.Parameters.AddWithValue("@BirthDate", student.BirthDate);
+                    command.Parameters.AddWithValue("@RegistrationDate", student.RegistrationDate);
                     int rowsAffected = command.ExecuteNonQuery();
                     if (rowsAffected > 0)
                     {
@@ -54,6 +59,5 @@ namespace TestProject.Controllers
             }
             //return RedirectToAction("Index", "Home");
         }
-
     }
 }

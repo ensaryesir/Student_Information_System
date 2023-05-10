@@ -28,8 +28,21 @@ namespace TestProject.Controllers
             return View(employeeModel);
         }
 
-        //SAYFA EKLEYİNCE HER SAYFA İÇİN BUNU ÜRET
         public IActionResult Students()
+        {
+            StudentModel employeeModel = new StudentModel();
+            employeeModel.EmplDetailList = new List<EmplDetail>();
+
+            TestDBContext testDBContext = new TestDBContext();
+            var data = testDBContext.Employees.ToList();
+            foreach (var item in data)
+            {
+                employeeModel.EmplDetailList.Add(NewMethod(item));
+            }
+            return View(employeeModel);
+        }
+
+        public IActionResult LoginAdmin()
         {
             StudentModel employeeModel = new StudentModel();
             employeeModel.EmplDetailList = new List<EmplDetail>();
@@ -56,13 +69,6 @@ namespace TestProject.Controllers
                 employeeModel.EmplDetailList.Add(NewMethod(item));
             }
             return View(employeeModel);
-
-            //using (var context = new TestDBContext())
-            //{
-            //    context.Employees.Add(student);
-            //    context.SaveChanges();
-            //}
-            //return RedirectToAction("Index");
         }
 
         private static EmplDetail NewMethod(Student item)

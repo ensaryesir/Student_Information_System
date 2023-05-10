@@ -35,25 +35,25 @@ namespace TestProject.DataDB
             {
                 entity.ToTable("StudentInformations");
 
-                entity.Property(e => e.FirstName)
-                    .HasMaxLength(50)
-                    .IsUnicode(false);
+                //entity.Property(e => e.FirstName)
+                //    .HasMaxLength(50)
+                //    .IsUnicode(false);
 
-                entity.Property(e => e.LastName)
-                    .HasMaxLength(50)
-                    .IsUnicode(false);
+                //entity.Property(e => e.LastName)
+                //    .HasMaxLength(50)
+                //    .IsUnicode(false);
 
-                entity.Property(e => e.Department)
-                    .HasMaxLength(50)
-                    .IsUnicode(false);
+                //entity.Property(e => e.Department)
+                //    .HasMaxLength(50)
+                //    .IsUnicode(false);
 
-                entity.Property(e => e.Adress)
-                    .HasMaxLength(50)
-                    .IsUnicode(false);
+                //entity.Property(e => e.Adress)
+                //    .HasMaxLength(50)
+                //    .IsUnicode(false);
 
-                entity.Property(e => e.PhoneNumber)
-                    .HasMaxLength(50)
-                    .IsUnicode(false);
+                //entity.Property(e => e.PhoneNumber)
+                //    .HasMaxLength(50)
+                //    .IsUnicode(false);
             });
 
             OnModelCreatingPartial(modelBuilder);
