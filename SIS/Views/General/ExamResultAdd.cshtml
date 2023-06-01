@@ -1,9 +1,8 @@
-﻿@model IEnumerable<SIS.Models.Students>
+﻿@*@model SIS.Models.Generals*@
 
 @{
-    ViewData["Title"] = "Student Page";
+    ViewData["Title"] = "Add Result Exam Page";
 }
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -49,6 +48,10 @@
                         <a class="nav-link" asp-area="" asp-controller="General" asp-action="ExamResult">
                             <div class="sb-nav-link-icon"><i class="fas fa-book-open"></i></div>
                             Exam Results
+                        </a>
+                        <a class="nav-link" asp-area="" asp-controller="General" asp-action="ExamResultAdd">
+                            <div class="sb-nav-link-icon"><i class="fas fa-book-open"></i></div>
+                            Exam Result Add
                         </a>
                         <a class="nav-link" asp-area="" asp-controller="Students" asp-action="Index">
                             <div class="sb-nav-link-icon"><i class="fas fa-book-open"></i></div>
@@ -115,104 +118,32 @@
         </div>
         <div id="layoutSidenav_content">
             <main>
-                <div class="container">
-                    <h2> List of Students</h2>
+                <div class="container-fluid px-4">
+                    <h1>Exam Result Add</h1>
+                    
 
-                    <a class="btn btn-primary btn-sm mt-2 mb-3 p-2" asp-action="Create"> New Student Modal </a>
-                    <form asp-controller="Students" asp-action="Index">
-                        <p>
-                            <input type="text" name="SearchString" />
-                            <input type="submit" value="Search" />
-                        </p>
-                    </form>
+                    @*HATA VAR *@
 
-                    <table border="1" class="table table-bordered table-responsive w-100">
-                        <thead>
-                            <tr>
-                                <th>
-                                    @Html.DisplayNameFor(model => model.FirstName)
-                                </th>
-                                <th>
-                                    @Html.DisplayNameFor(model => model.LastName)
-                                </th>
-                                <th>
-                                    @Html.DisplayNameFor(model => model.Department)
-                                </th>
-                                @*<th>
-                                    @Html.DisplayNameFor(model => model.Email)
-                                </th>*@
-                                <th>
-                                    @Html.DisplayNameFor(model => model.Address)
-                                </th>
-                                <th>
-                                    @Html.DisplayNameFor(model => model.StudentNo)
-                                </th>
-                                <th>
-                                    @Html.DisplayNameFor(model => model.PhoneNumber)
-                                </th>
-                                <th>
-                                    @Html.DisplayNameFor(model => model.BirthDate)
-                                </th>
-                                <th>
-                                    @Html.DisplayNameFor(model => model.RegistrationDate)
-                                </th>
-                                <th>
-                                    @Html.DisplayNameFor(model => model.Gender)
-                                </th>
-                                <th>
-                                    @Html.DisplayNameFor(model => model.IdentificationNumber)
-                                </th>
-                                <th>
-									
-                                </th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            @foreach (var item in Model)
-                            {
-                                <tr>
-                                    <td>
-                                        @Html.DisplayFor(modelItem => item.FirstName)
-                                    </td>
-                                    <td>
-                                        @Html.DisplayFor(modelItem => item.LastName)
-                                    </td>
-                                    <td>
-                                        @Html.DisplayFor(modelItem => item.Department)
-                                    </td>
-                                   @* <td>
-                                        @Html.DisplayFor(modelItem => item.Email)
-                                    </td>*@
-                                    <td>
-                                        @Html.DisplayFor(modelItem => item.Address)
-                                    </td>
-                                    <td>
-                                        @Html.DisplayFor(modelItem => item.StudentNo)
-                                    </td>
-                                    <td>
-                                        @Html.DisplayFor(modelItem => item.PhoneNumber)
-                                    </td>
-                                    <td>
-                                        @Html.DisplayFor(modelItem => item.BirthDate)
-                                    </td>
-                                    <td>
-                                        @Html.DisplayFor(modelItem => item.RegistrationDate)
-                                    </td>
-                                    <td>
-                                        @Html.DisplayFor(modelItem => item.Gender)
-                                    </td>
-                                    <td>
-                                        @Html.DisplayFor(modelItem => item.IdentificationNumber)
-                                    </td>
-                                    <td class="btn-group-sm">
-                                        <a asp-action="Edit" class="btn btn-primary btn-sm m-1"  asp-route-id="@item.Id">Edit</a>
-                                        <a asp-action="Details" class="btn btn-primary btn-sm m-1" asp-route-id="@item.Id">Details</a>
-                                        <a asp-action="Delete" class="btn btn-danger btn-sm m-1"  asp-route-id="@item.Id">Delete</a>
-                                    </td>
-                                </tr>
-                            }
-                        </tbody>
-                    </table>
+
+                   @* <form asp-controller="General" asp-action="SaveExamResult" method="post">
+                        <div class="form-group">
+                            <label for="studentNo">Student Number:</label>
+                            <input type="text" class="form-control" id="studentNo" name="StudentNo" value="@Model.StudentNo" readonly>
+                        </div>
+                        <div class="form-group">
+                            <label for="lessonName">Lesson Name:</label>
+                            <input type="text" class="form-control" id="lessonName" name="LessonName" value="@Model.LessonName" readonly>
+                        </div>
+                        <div class="form-group">
+                            <label for="midterm">Midterm:</label>
+                            <input type="number" class="form-control" id="midterm" name="Midterm" value="@Model.Midterm">
+                        </div>
+                        <div class="form-group">
+                            <label for="final">Final:</label>
+                            <input type="number" class="form-control" id="final" name="Final" value="@Model.Final">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Save</button>
+                    </form>*@
                 </div>
             </main>
         </div>
@@ -227,3 +158,5 @@
     <script src="~/js/datatables-simple-demo.js"></script>
 </body>
 </html>
+
+
